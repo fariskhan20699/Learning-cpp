@@ -12,7 +12,7 @@ int main(){
     cout<<"Remainder      : "<<a % b<<endl;
     return 0;
 }
-
+///////////////////////////////////////////////////////////////////////////
 /*
 //////////
 //Output//
@@ -23,7 +23,7 @@ Multiplication : 192
 Division       : 1
 Remainder      : 4
 */
-
+////////////////////////////////////////////////////////////////////////////
 /*
 Practice Task: Write each expression inside the cout and veify your answer cheking output.
 
