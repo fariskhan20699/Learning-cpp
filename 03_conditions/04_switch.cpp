@@ -56,7 +56,7 @@ int main(){
 Wednesday
 
 */
-
+/////////////////////////////////////////////////////////////////////////
 /*
 Practice Task: 
 Take a number from 1 to 7 and use switch to print the corresponding day 
