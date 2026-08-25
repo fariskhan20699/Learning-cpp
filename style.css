@@ -1,58 +1,109 @@
-*{
-box-sizing : border-box;
-margin : 0;
-padding :0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    font-size: Arial,sans-serif;
+body {
+    font-family: Arial, sans-serif;
     background: #f5f7fa;
     color: #222;
-    padding : 20px 40px;
+    padding: 20px 40px;
 }
 
-.container{
+.container {
     max-width: 1000px;
     margin: auto;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 32px;
 }
 
-.subtitle{
+.subtitle {
     text-align: center;
     color: #666;
     margin-bottom: 40px;
 }
 
-.topics{
+.topics {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-        }
+}
 
-.card{
+.card {
     background: white;
     padding: 25px;
     border-radius: 12px;
     text-decoration: none;
     color: #222;
     border: 1px solid #ddd;
-    transition: 0.2s;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-4px);
     border-color: #007acc;
 }
 
-.card h2{
+.card h2 {
     margin-bottom: 10px;
 }
 
-.card p{
+.card p {
     color: #666;
     font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Coming Soon */
+
+.coming-soon {
+    opacity: 0.6;
+}
+
+.coming-soon span {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .topics {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
 }
