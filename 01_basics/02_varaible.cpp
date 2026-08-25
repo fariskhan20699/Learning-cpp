@@ -12,12 +12,6 @@ int main(){
 }
 
 /*
-Output
-Name: Faris khan
-Age: 19
-*/
-
-/*
 practice task: reate variables to store your name and age, then print 
 their values on the screen.
 */

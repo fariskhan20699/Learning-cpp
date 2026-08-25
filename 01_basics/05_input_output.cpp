@@ -17,19 +17,6 @@ int main(){
 }
 
 /*
-//////////
-//Output//
-/////////
-
-Enter the Score: 23
-Enter Result: 0
-
-Score: 23
-Result: 0
-
-*/
-
-/*
 Practice Task:
 -> Write a program that takes your name and age as input from the 
    user and then prints them on the screen.

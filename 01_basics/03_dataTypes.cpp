@@ -30,28 +30,6 @@ int main(){
 }
 
 /*
-///////////
-//Output//
-/////////
-Name  : Faris khan
-Age   : 19
-Price : 3.99
-Fee   : 3.5674
-Login : 1
-Grade : A
-
-////////////
-//size of///
-////////////
-Int     : 4
-String  : 32
-Float   : 4
-Double  : 8
-Boolean : 1
-Char    : 1
-*/
-
-/*
 Practice Task: Write a program that creates variables of 
 different data types such as int, float, double, char, 
 and bool, then prints their values.
