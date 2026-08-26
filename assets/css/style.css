@@ -47,7 +47,8 @@ h1{
 
 .card:hover{
     transform: translateY(-4px);
-    border-color: #007acc;
+    border-color: #173245;
+    color: #007acc;
 }
 
 .card h2{
