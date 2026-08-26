@@ -1,23 +1,20 @@
-const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.getElementById("navLinks");
-
-menuBtn.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
-
-// Coming soon click handler
 function comingSoon(event) {
     event.preventDefault();
-    showComingSoon("This topic is currently under development...<br> Thank you for your patience.");
+    showComingSoon("This topic is currently under development...<br>Thank you for your patience.");
 }
 
-// Coming soon custom popup
+function futureUpdate(event) {
+    event.preventDefault();
+    showFutureUpdate("This will be available in a future update.");
+}
+
 function showComingSoon(message) {
     const oldModal = document.querySelector('.custom-modal-overlay');
     if (oldModal) oldModal.remove();
 
     const overlay = document.createElement('div');
     overlay.className = 'custom-modal-overlay';
+
     overlay.innerHTML = `
         <div class="custom-modal">
             <h3>Coming Soon</h3>
@@ -25,6 +22,7 @@ function showComingSoon(message) {
             <button class="custom-modal-btn">OK</button>
         </div>
     `;
+
     document.body.appendChild(overlay);
 
     overlay.querySelector('.custom-modal-btn').addEventListener('click', () => {
@@ -36,18 +34,13 @@ function showComingSoon(message) {
     });
 }
 
-//future
-function comingSoon(event) {
-    event.preventDefault();
-    showComingSoon("This will be available in a future update.");
-}
-//
-function showComingSoon(message) {    
+function showFutureUpdate(message) {
     const oldModal = document.querySelector('.custom-modal-overlay');
     if (oldModal) oldModal.remove();
 
     const overlay = document.createElement('div');
     overlay.className = 'custom-modal-overlay';
+
     overlay.innerHTML = `
         <div class="custom-modal">
             <h3>Future Updates</h3>
@@ -55,6 +48,7 @@ function showComingSoon(message) {
             <button class="custom-modal-btn">OK</button>
         </div>
     `;
+
     document.body.appendChild(overlay);
 
     overlay.querySelector('.custom-modal-btn').addEventListener('click', () => {
