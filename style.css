@@ -1,40 +1,40 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
     background: #f5f7fa;
     color: #222;
     padding: 20px 40px;
 }
 
-.container {
+.container{
     max-width: 1000px;
     margin: auto;
 }
 
-h1 {
+h1{
     text-align: center;
     margin-bottom: 10px;
     font-size: 32px;
 }
 
-.subtitle {
+.subtitle{
     text-align: center;
     color: #666;
     margin-bottom: 40px;
 }
 
-.topics {
+.topics{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
 
-.card {
+.card{
     background: white;
     padding: 25px;
     border-radius: 12px;
@@ -45,16 +45,16 @@ h1 {
     cursor: pointer;
 }
 
-.card:hover {
+.card:hover{
     transform: translateY(-4px);
     border-color: #007acc;
 }
 
-.card h2 {
+.card h2{
     margin-bottom: 10px;
 }
 
-.card p {
+.card p{
     color: #666;
     font-size: 14px;
     line-height: 1.5;
@@ -62,11 +62,11 @@ h1 {
 
 /* Coming Soon */
 
-.coming-soon {
+.coming-soon{
     opacity: 0.6;
 }
 
-.coming-soon span {
+.coming-soon span{
     display: inline-block;
     margin-top: 15px;
     font-size: 13px;
@@ -75,35 +75,35 @@ h1 {
 
 /* Mobile */
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
 
-    body {
+    body{
         padding: 20px 15px;
     }
 
-    h1 {
+    h1{
         font-size: 26px;
     }
 
-    .subtitle {
+    .subtitle{
         font-size: 14px;
         margin-bottom: 25px;
     }
 
-    .topics {
+    .topics{
         grid-template-columns: 1fr;
         gap: 15px;
     }
 
-    .card {
+    .card{
         padding: 20px;
     }
 
-    .card h2 {
+    .card h2{
         font-size: 20px;
     }
 
-    .card p {
+    .card p{
         font-size: 14px;
     }
 }
