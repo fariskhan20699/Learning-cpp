@@ -9,7 +9,7 @@ cpp-learning/
 │   ├── 03_data_types.cpp
 │   ├── 04_constants.cpp
 │   └── 05_input_output.cpp
-│
+│  ---
 ├── 02_Operators/
 │   ├── 01_arithmetic.cpp
 │   ├── 02_relational.cpp
