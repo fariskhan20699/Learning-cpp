@@ -1,5 +1,4 @@
 /*03 RETURN VALUE
-
 NOTES:
 -> A return value is the value that a function sends back to the place where the function was called.
 -> he "return" keyword is used to send a value back.
@@ -28,7 +27,6 @@ int add(){
 
     return a + b;
 }
-
 int square() {
     int number = 5;
 
@@ -36,7 +34,7 @@ int square() {
 }
 
 
-int main() {
+int main(){
 
     int number = getNumber();
     cout<<"Number = "<<number<<endl;
@@ -49,6 +47,7 @@ int main() {
 
     return 0;
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /*
 PRACTICE TASKS
@@ -81,9 +80,4 @@ numbers and returns the larger number.
 Task 6:
 Create a function calculate() that performs a calculation
 and returns the final result.
-
-
-NOTE:
-For now, do NOT use parameters.
-Parameters + return values will be practiced together next.
 */
